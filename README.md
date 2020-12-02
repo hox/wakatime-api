@@ -2,7 +2,7 @@
 
 Featured on my github profile, you can use this project and all you need to fill out is the .env and then you can put the gist on your profile! Thanks for coming by!
 
-### Setup
+# Setup
 
 1. Create a Personal Access Token with Github [here](https://github.com/settings/tokens), you will need the scope `gist`. Once you have your new Personal Access Token set that as an environment variable under `GITHUB_TOKEN`.
 
