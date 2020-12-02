@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Featured on my github profile, you can use this project and all you need to fill out is the .env and then you can put the gist on your profile! Thanks for coming by!",
   "main": "src/index.ts",
+  "repository": "https://github.com/hox/wakatime-api",
   "scripts": {
     "start": "tsc && node dist/index.js",
     "watch": "nodemon --exec ts-node --watch index.ts ."
@@ -13,12 +14,12 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "node-fetch": "^2.6.1",
-    "ts-node": "^9.0.0",
     "typescript": "^4.0.3"
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
     "@types/node": "^14.11.2",
-    "@types/node-fetch": "^2.5.7"
+    "@types/node-fetch": "^2.5.7",
+    "ts-node": "^9.0.0"
   }
 }

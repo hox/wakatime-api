@@ -2,6 +2,10 @@
 
 Featured on my github profile, you can use this project and all you need to fill out is the .env and then you can put the gist on your profile! Thanks for coming by!
 
+# Release
+
+The absolute first step to running this project on your own is downloading the source code, `master` may potentially have bugs so download this project from one of the released versions [here](https://github.com/hox/wakatime-api/releases).
+
 # Setup
 
 1. Create a Personal Access Token with Github [here](https://github.com/settings/tokens/new), you will need the scope `gist`. Once you have your new Personal Access Token set that as an environment variable under `GITHUB_TOKEN`.
