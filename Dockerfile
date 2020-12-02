@@ -1,5 +1,7 @@
 FROM node:alpine
 
+LABEL org.opencontainers.image.source https://github.com/hox/wakatime-api
+
 WORKDIR /usr/src/app
 
 COPY package*.json ./
