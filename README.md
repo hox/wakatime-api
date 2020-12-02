@@ -4,7 +4,7 @@ Featured on my github profile, you can use this project and all you need to fill
 
 # Setup
 
-1. Create a Personal Access Token with Github [here](https://github.com/settings/tokens), you will need the scope `gist`. Once you have your new Personal Access Token set that as an environment variable under `GITHUB_TOKEN`.
+1. Create a Personal Access Token with Github [here](https://github.com/settings/tokens/new), you will need the scope `gist`. Once you have your new Personal Access Token set that as an environment variable under `GITHUB_TOKEN`.
 
 2. Create a **Public** Github Gist [here](https://gist.github.com/), once created you will be redirected to a url formatted like `https://gist.github.com/username/{GIST_ID}`. Copy the gist id from the url and set that as an environment variable under `GIST_ID`.
 
