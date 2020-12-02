@@ -1,22 +1,24 @@
 {
   "name": "wakatime-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Featured on my github profile, you can use this project and all you need to fill out is the .env and then you can put the gist on your profile! Thanks for coming by!",
   "main": "src/index.ts",
   "scripts": {
-    "start": "ts-node src/index.ts",
+    "start": "tsc && node dist/index.js",
     "watch": "nodemon --exec ts-node --watch index.ts ."
   },
   "keywords": [],
-  "author": "",
+  "author": "Elias Hernandez",
   "license": "ISC",
   "dependencies": {
-    "@types/dotenv": "^8.2.0",
-    "@types/node": "^14.11.2",
-    "@types/node-fetch": "^2.5.7",
     "dotenv": "^8.2.0",
     "node-fetch": "^2.6.1",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^14.11.2",
+    "@types/node-fetch": "^2.5.7"
   }
 }
