@@ -2,3 +2,8 @@ node_modules
 dist
 .env
 .env.example
+.prettierrc
+.gitignore
+README.md
+.github/
+Dockerfile
