@@ -19,4 +19,8 @@ Featured on my github profile, you can use this project and all you need to fill
 
 6. Repeat steps 4 & 5 but instead of `Chart Type: Coding Activity` you want `Chart Type: Languages`, and set that as the environment vairable `LANGS_PATH` with the same formatting.
 
+7. Run the command `npm install` to install all of the required dependencies for the updater to run.
+
+8. Start the updater with the command `npm start`.
+
 Congratulations, you are done! Enjoy the gist updater and please consider leaving a ⭐ on this repo if you enjoy. If you have any questions or need help with something please create an Issue or contact me via [twitter](https://go.eli.tf/twitter).
