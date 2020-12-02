@@ -18,3 +18,5 @@ Featured on my github profile, you can use this project and all you need to fill
 5. Under the output you will see a `url: https://wakatime.com/share/@{SHARE_ID}`, copy the share id from the url and set that as an environment vairable under `TIMES_PATH` formatted like `share/@xxxxxxxxxx/xxxxxxxxxx`.
 
 6. Repeat steps 4 & 5 but instead of `Chart Type: Coding Activity` you want `Chart Type: Languages`, and set that as the environment vairable `LANGS_PATH` with the same formatting.
+
+Congratulations, you are done! Enjoy the gist updater and please consider leaving a ⭐ on this repo if you enjoy. If you have any questions or need help with something please create an Issue or contact me via [twitter](https://go.eli.tf/twitter).
