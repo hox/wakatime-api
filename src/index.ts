@@ -82,7 +82,7 @@ async function apiGrab() {
     }),
   })
     .then(() => {
-      console.log('Updated gist #1 with most recent information.');
+      console.log('Updated gist with most recent information.');
       lastMsg = content;
     })
     .catch((err) => {
