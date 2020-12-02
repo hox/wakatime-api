@@ -28,3 +28,7 @@ The absolute first step to running this project on your own is downloading the s
 8. Start the updater with the command `npm start`.
 
 Congratulations, you are done! Enjoy the gist updater and please consider leaving a ⭐ on this repo if you enjoy. If you have any questions or need help with something please create an Issue or contact me via [twitter](https://go.eli.tf/twitter).
+
+# Docker
+
+Docker image available at `ghcr.io/hox/wakatime-api:latest`.
