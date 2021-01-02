@@ -8,19 +8,15 @@ import fetch from 'node-fetch';
 const emptChar = '-'; // The special character used to represent unfilled portions of the graph
 const specChar = '#'; // The special character used to fill the graph
 const hashCount = 30; // Amount of special characters representing the filled graph
-const apiInterval = 60 * 1000; // Interval at which you send requests to wakatime
 
 /* END CONFIG */
 
 var lastMsg = '';
 
-console.log('Starting auto-grab');
-
 apiGrab();
-setInterval(apiGrab, apiInterval);
 
 async function apiGrab() {
-  console.log('Grabbing API Info...');
+  console.log('Fetching Wakatime API...');
 
   const langsData = JSON.parse(await wakReq(process.env.LANGS_PATH));
 
@@ -82,7 +78,7 @@ async function apiGrab() {
     }),
   })
     .then(() => {
-      console.log('Updated gist with most recent information.');
+      console.log('Updated gist.');
       lastMsg = content;
     })
     .catch((err) => {
